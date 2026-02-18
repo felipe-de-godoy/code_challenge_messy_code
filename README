@@ -1,0 +1,8 @@
+Problem Statement
+You are in the position of a Senior Data Platform Engineer and have the role of ensuring code quality as well as sharing knowledge with more junior team members. Imagine that a beginner has been assigned the task of writing code for an ETL workflow. The objective is:
+Extract transaction data (credit card, debit, payments in general) daily from a relational database.
+Filter transactions where status = 'success'and perform a count grouped by the typecolumn.
+Load the data into a file system in a columnar format. 
+The source table has variable volume and may reach tens of millions of rows per day. 
+
+Your task is to review and detect problems in the following piece of code
